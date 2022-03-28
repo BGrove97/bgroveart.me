@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+h1{background-color:white;
+    font-family:cochin;
+    color:#2D2843}
+
+body{background-color:white;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    color:#000}
